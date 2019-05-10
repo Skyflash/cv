@@ -1,0 +1,205 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Cristian Castellari
+    #tagline: Full Stack Developer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: c.castellari@gmail.com
+    phone: +39 380 5081 673
+    website: cristiancastellari.it #do not add http://
+    linkedin: cristiancastellari
+    github: skyflash
+    gitlab: Skyflash
+    bitbucket:
+    twitter: '@BloggerStanco'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: Italiano
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Famiglia
+        link:
+
+      - item: Turismo
+        link:
+
+      - item: Videogiochi
+        link: https://flottastellare.it
+      
+      - item: Cucinare
+        link:
+
+career-profile:
+    title: Profilo
+    summary: |
+      **Competenze Comunicative**
+
+      Sono predisposto a lavorare in team e ritengo di possedere spiccate capacità relazionali.
+      Sono altresì molto diplomatico e tendo ad instaurare sempre un ottimo rapporto di fiducia con i colleghi.
+
+      **Competenze Organizzative**
+
+      Mi dedico totalmente all'Azienda per cui lavoro, sposandone la filosofia. Ho profondo rispetto perle
+      gerarchie e per i processi Aziendali. In più occasioni, durante il mio percorso professionale, mi sono trovato a dover
+      definire e realizzare progetti anche importanti, con notevoli successo e risultati.
+
+      Posseggo spiccate qualità di troubleshooting.
+
+#education:
+#    - degree: MSc in Computer Science
+#      university: University of London
+#      time: 2011 - 2012
+#      details: |
+#        Describe your study here lorem ipsum dolor sit amet, consectetuer
+#        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#        sociis natoque penatibus et magnis dis parturient montes, nascetur
+#        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#        pretium quis, sem.
+
+#          - Bullet point
+#          - Bullet point
+
+experiences:
+    - role: Coordinatore Office Automation Systems
+      time: Ottobre 2016 - Presente
+      company: Novomatic Italia spa, Rimini
+      details: |
+        Ho il compito di gestire, analizzare e realizzare soluzioni software per supportare i
+        servizi Office Automation erogati dall’Azienda. Il sistema Kace 1000 è stato
+        nel tempo evoluto e grazie ad esso oggi gestiamo anche script automatizzati
+        e configurazioni dei PC client ed installazioni software on demand.
+        
+        I PC client che gestiamo sono oggi oltre 800.
+          
+          - Redigo procedure (es: ISO 27001) e documentazione interna.
+          - Fornisco assistenza (sia locale che remota) agli utenti del gruppo. 
+
+    - role: Referente Office Automation
+      time: Gennaio 2015 - Ottobre 2016
+      company: Novomatic Italia Services srl, Rimini
+      details: |
+        Assistenza in ambito Office Automation a tutti gli utenti del Gruppo
+        Novomatic sul territorio italiano (oltre 500 computer su rete geografica)
+        
+        Abbiamo realizzato un progetto di Asset Management insieme a Dell (Dell
+        Kace 1000), grazie al quale riusciamo a gestire software, licenze ed assistenza
+        anche da remoto con notevole risparmio di tempo e di costi.
+
+        Gestione di server Linux e Windows che offrono diversi servizi quali:
+          - Git (sviluppo)
+          - MDM
+          - Antivirus corporate (Kaspersky Endpoint Security)
+          - Print server
+          - Active Directory
+
+    - role: Responsabile IT
+      time: Gennaio 2006 - Dicembre 2014
+      company: SO.GE.M.A. spa, Castel San Pietro Terme (BO)
+      details: |
+        Mi sono occupato della gestione e progettazione dell’infrastruttura
+        informatica del Gruppo (tre società principali e sei filiali), consolidando le
+        reti ed i sistemi delle differenti realtà aziendali collegate, uniformando i
+        servizi IT e di telefonia, ottenendo una riduzione dei costi di gestione e
+        semplificando il supporto fornito agli oltre 100 utenti totali.
+
+        Tecnologie adottate: 
+          - Citrix RemoteApp e RemoteDesktop
+          - XenServer
+          - Avaya PABx
+          - Mikrotik RouterOS
+          
+          oltre a svariati server Linux (CentOS/Debian), Microsoft Active Directory, GPO, DHCP/DNS eccetera
+
+projects:
+    title: Progetti
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+
+    papers:
+      - title: The Art of Computer Programming
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Competenze
+
+    toolset:
+      - name: Quest Kace 1000
+        level: 98%
+
+      - name: Citrix Xenserver
+        level: 90%
+
+      - name: Microsoft Active Directory
+        level: 90%
+
+      - name: IBM Domino/Notes
+        level: 85%
+
+      - name: Microsoft Windows Server (2008 - 2016)
+        level: 85%
+
+      - name: Citrix XenApp
+        level: 80%      
+
+      - name: Linux Server (CentOS/Debian)
+        level: 80%
+
+      - name: ITIL in Service Management
+        level: 80%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
